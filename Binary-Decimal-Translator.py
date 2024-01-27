@@ -29,7 +29,7 @@ input_field = tk.Entry(root)
 input_field.pack()
 
 
-binary_to_decimal_button = tk.Button(menu_frame, text="Send Output", command=binary_to_decimal)
+binary_to_decimal_button = tk.Button(menu_frame, text="Translate", command=binary_to_decimal, height =2, width =60)
 binary_to_decimal_button.pack(side=tk.LEFT)
 
 output_label = tk.Label(root, text="", pady=10)
